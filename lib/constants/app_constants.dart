@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 class AppConstants {
   AppConstants._();
 
-  // Minimum spacing unit
   static const double kSpacingUnit = 10;
 
   // Minimum button size

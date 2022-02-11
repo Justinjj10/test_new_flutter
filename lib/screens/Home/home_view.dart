@@ -4,6 +4,7 @@ import '../../view_model/home_view_model.dart';
 import '../../constants/color_constants.dart';
 import '../../constants/text_styles.dart';
 import '../../constants/enums.dart';
+import '../Base/base_view.dart';
 
 class HomeView extends StatefulWidget {
 
@@ -43,7 +44,7 @@ class _HomeViewState extends State<HomeView> {
             style: appBarTextStyle,
           ),
         ),
-        body: Consumer<HomeViewModel>(
+        body: BaseView<HomeViewModel>(
       builder: (context, model, child) { 
        final _homeViewModel = Provider.of<HomeViewModel>(context);
 
