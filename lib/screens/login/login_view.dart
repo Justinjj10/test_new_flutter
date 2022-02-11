@@ -8,7 +8,6 @@ import 'package:intl_phone_field/intl_phone_field.dart';
 class LoginScreen extends StatelessWidget {
   LoginScreen({Key? key}) : super(key: key);
 
-
   @override
   Widget build(BuildContext context) {
     Size size = MediaQuery.of(context).size;
